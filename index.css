@@ -1,51 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f8ff; /* צבע רקע עדין */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    background-color: white;
+    border-radius: 12px; /* רדיוס פינות */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* הצללה */
+    max-width: 1000px; /* הגדלת הרוחב */
+    padding: 25px; /* הגדלת ריווח */
+    text-align: center;
+}
+
+.header-image {
+    background: url("C:/Users/user/Desktop/images.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 70px; /* הרחבת הריווח */
+    border-radius: 12px; /* התאמת הרדיוס */
 }
 
 h1 {
-    color: #333;
-    text-align: center; /* הכותרת באמצע */
+    color: black; /* עדכון צבע הכותרת לשחור */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* פחות צל */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* התפריט באמצע */
+    text-align: center;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 0 15px; /* ריווח בין הפריטים בתפריט */
+    margin: 0 10px; /* צמצום המרווח */
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: black; /* צבע הטקסט */
     font-weight: bold;
-    padding: 8px 12px; /* קצת ריווח בתוך הפריט */
-    border-radius: 4px; /* פינות מעוגלות */
-    transition: background-color 0.3s ease; /* אפקט מעבר צבע */
+    padding: 10px 15px; /* התאמת גודל האזור הנלחץ */
+    border: 2px solid black; /* מסגרת מסביב לטקסט */
+    border-radius: 8px; /* פינות מעוגלות */
+    transition: background-color 0.3s ease, color 0.3s ease; /* מעבר חלק */
 }
 
 a:hover {
-    background-color: #ddd; /* שינוי רקע בהצבעה על הקישור */
-}
-
-section {
-    margin-top: 20px;
-    background-color: white;
-    padding: 15px; /* ריווח נוסף בתוך התוכן */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* מגבלת רוחב */
-    margin-left: auto; /* מרכז התוכן */
-    margin-right: auto; /* מרכז התוכן */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    background-color: black; /* שינוי רקע */
+    color: white; /* שינוי צבע טקסט */
 }
