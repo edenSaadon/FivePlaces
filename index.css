@@ -18,14 +18,14 @@ body {
 }
 
 .header-image {
-    background: url("C:/Users/user/Desktop/images.jpg") no-repeat center center;
+    background: url("https://images.pexels.com/photos/333525/pexels-photo-333525.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat center center;
     background-size: cover;
     padding: 70px; /* הרחבת הריווח */
     border-radius: 12px; /* התאמת הרדיוס */
 }
 
 h1 {
-    color: black; /* עדכון צבע הכותרת לשחור */
+    color: white; /* צבע הכותרת ללבן */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* פחות צל */
 }
 
@@ -42,15 +42,15 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: black; /* צבע הטקסט */
+    color: white; /* צבע הטקסט ללבן */
     font-weight: bold;
     padding: 10px 15px; /* התאמת גודל האזור הנלחץ */
-    border: 2px solid black; /* מסגרת מסביב לטקסט */
+    border: 2px solid white; /* מסגרת מסביב לטקסט */
     border-radius: 8px; /* פינות מעוגלות */
     transition: background-color 0.3s ease, color 0.3s ease; /* מעבר חלק */
 }
 
 a:hover {
-    background-color: black; /* שינוי רקע */
-    color: white; /* שינוי צבע טקסט */
+    background-color: #ffcccc; /* צבע רקע ורוד בהיר בהצבעה */
+    color: black; /* שינוי צבע טקסט לשחור */
 }
