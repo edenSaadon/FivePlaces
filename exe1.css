@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-image: url('https://www.transparenttextures.com/patterns/tiny-cross.png'); /* רשת פרחים קטנה */
-    background-color: #fff; /* רקע לבן */
+    background-color: #f0f8ff; /* צבע רקע עדין */
 }
 
 h1 {
