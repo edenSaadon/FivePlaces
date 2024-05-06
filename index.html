@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Top 5 Most Beautiful Places I've Visited</title>
+    <title>Top 5 Most Beautiful Places I Want to Visit</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <div class="content-container">
         <div class="header-image">
             <h1>Top 5 Most Beautiful Places I want to visit</h1>
-            <nav>
-                <ul>
-                    <li><a href="site1.html">Machu Pichu</a></li>
-                    <li><a href="site2.html">Northern Lights</a></li>
-                    <li><a href="site3.html">Tuscany</a></li>
-                    <li><a href="site4.html">Galapagos Islands</a></li>
-                    <li><a href="site5.html">Las Vegas</a></li>
-                </ul>
-            </nav>
+            <img src="C:\Users\user\Desktop\fivePlaces.png" usemap="#placesMap" alt="Top 5 Most Beautiful Places" class="menu-image">
+
+            <!-- Image Map -->
+            <map name="placesMap">
+                <!-- Adjust coordinates accordingly to match the new image dimensions -->
+                <area shape="rect" coords="0,0,180,200" href="site5.html" alt="Las Vegas">
+                <area shape="rect" coords="180,0,360,200" href="site2.html" alt="Northern Lights">
+                <area shape="rect" coords="360,0,540,200" href="site4.html" alt="Galapagos Islands">
+                <area shape="rect" coords="540,0,720,200" href="site3.html" alt="Tuscany">
+                <area shape="rect" coords="720,0,900,200" href="site1.html" alt="Machu Picchu">
+            </map>
+
+            <!-- Navigation Buttons -->
+            <div class="menu-buttons">
+                <a href="site5.html">Las Vegas</a>
+                <a href="site2.html">Northern Lights</a>
+                <a href="site4.html">Galapagos Islands</a>
+                <a href="site3.html">Tuscany</a>
+                <a href="site1.html">Machu Picchu</a>
+            </div>
         </div>
     </div>
 </body>

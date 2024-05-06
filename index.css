@@ -10,47 +10,45 @@ body {
 
 .content-container {
     background-color: white;
-    border-radius: 12px; /* רדיוס פינות */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* הצללה */
-    max-width: 1000px; /* הגדלת הרוחב */
-    padding: 25px; /* הגדלת ריווח */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    padding: 25px;
     text-align: center;
 }
 
 .header-image {
-    background: url("https://images.pexels.com/photos/333525/pexels-photo-333525.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat center center;
-    background-size: cover;
-    padding: 70px; /* הרחבת הריווח */
-    border-radius: 12px; /* התאמת הרדיוס */
+    border-radius: 12px;
+}
+
+.menu-image {
+    width: 100%; /* Adjusts the width to fit within its container */
+    max-width: 900px; /* Adjusts the maximum width to control the image size */
+    height: auto; /* Maintains aspect ratio */
 }
 
 h1 {
-    color: white; /* צבע הכותרת ללבן */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* פחות צל */
+    color: black;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 10px; /* צמצום המרווח */
+.menu-buttons {
+    display: flex;
+    justify-content: space-around; /* Evenly distributes the buttons */
+    margin-top: 10px; /* Adds spacing between the image and buttons */
 }
 
 a {
     text-decoration: none;
-    color: white; /* צבע הטקסט ללבן */
+    color: black;
     font-weight: bold;
-    padding: 10px 15px; /* התאמת גודל האזור הנלחץ */
-    border: 2px solid white; /* מסגרת מסביב לטקסט */
-    border-radius: 8px; /* פינות מעוגלות */
-    transition: background-color 0.3s ease, color 0.3s ease; /* מעבר חלק */
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-    background-color: #ffcccc; /* צבע רקע ורוד בהיר בהצבעה */
-    color: black; /* שינוי צבע טקסט לשחור */
+    background-color: #ffcccc;
+    color: black;
 }
