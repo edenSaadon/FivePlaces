@@ -34,7 +34,7 @@ h1 {
 
 .menu-buttons {
     display: flex;
-    justify-content: space-around; /* Evenly distributes the buttons */
+    justify-content: space-around; /* Evenl distributes the buttons */
     margin-top: 10px; /* Adds spacing between the image and buttons */
 }
 
