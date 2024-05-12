@@ -1,4 +1,4 @@
-body {
+\body {
     margin: 0;
     padding: 20px;
     background-color: white;
@@ -9,22 +9,13 @@ body {
 }
 
 .content-container {
+    max-width: 1500px; /* Adjust container size to accommodate image */
+    margin: auto; /* Center container */
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    max-width: 1000px;
     padding: 25px;
     text-align: center;
-}
-
-.header-image {
-    border-radius: 12px;
-}
-
-.menu-image {
-    width: 100%; /* Adjusts the width to fit within its container */
-    max-width: 900px; /* Adjusts the maximum width to control the image size */
-    height: auto; /* Maintains aspect ratio */
 }
 
 h1 {
@@ -32,10 +23,17 @@ h1 {
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
 }
 
+.menu-image {
+    width: 100%; /* Ensures image width scales to container */
+    max-width: 1489px; /* Constraints image width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 12px;
+}
+
 .menu-buttons {
     display: flex;
-    justify-content: space-around; /* Evenl distributes the buttons */
-    margin-top: 10px; /* Adds spacing between the image and buttons */
+    justify-content: space-evenly; /* Adjusts spacing between buttons */
+    margin-top: 20px; /* Adds spacing between the image and buttons */
 }
 
 a {
@@ -46,9 +44,31 @@ a {
     border: 2px solid black;
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px; /* Adds spacing between buttons */
 }
 
 a:hover {
     background-color: #ffcccc;
     color: black;
+}
+
+/* Adjustments to menu button positions */
+.las-vegas {
+    margin-left: -30px; /* Adjusting Las Vegas */
+}
+
+.northern-lights {
+    margin-left: -30px; /* Adjusting Northern Lights */
+}
+
+.galapagos-islands {
+    margin-left: -10px; /* Adjusting Galapagos Islands */
+}
+
+.tuscany {
+    margin-right: -15px; /* Adjusting Tuscany */
+}
+
+.machu-picchu {
+    margin-right: -45px; /* Adjusting Machu Picchu */
 }
